@@ -1,0 +1,8 @@
+FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
+COPY ./publish  app/
+WORKDIR /app
+
+ENV ASPNETCORE_URLS http://*:80
+ENV DOTNET_RUNNING_IN_CONTAINER true
+EXPOSE 80
+ENTRYPOINT ["dotnet", "ProjectTest.API.dll"]
