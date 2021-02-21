@@ -18,7 +18,7 @@ namespace ProjectTest.API.Controllers
         public string Get()
         {
             _logger.LogInformation("Initial Home Get");
-            return "Net Core 5.0 Running ... v16012021-Stywar - Jenkinsfile Tag";
+            return "Net Core 5.0 Running ... v16012021-Stywar-Vargas - Jenkinsfile Tag";
         }
     }
 }
