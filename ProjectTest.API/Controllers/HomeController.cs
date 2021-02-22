@@ -18,7 +18,7 @@ namespace ProjectTest.API.Controllers
         public string Get()
         {
             _logger.LogInformation("Initial Home Get");
-            return "Net Core 5.0 Running ... v21022021-Stywar AZURE DEVOPS 5";
+            return "Net Core 5.0 Running ... v21022021-Stywar AZURE DEVOPS 50";
         }
     }
 }
