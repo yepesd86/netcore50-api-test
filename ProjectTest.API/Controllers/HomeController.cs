@@ -18,7 +18,7 @@ namespace ProjectTest.API.Controllers
         public string Get()
         {
             _logger.LogInformation("Initial Home Get");
-            return "Net Core 5.0 Running ... 23032021-v2 AFORO255";
+            return "Net Core 5.0 Running ... 23032021-v3 AFORO255";
         }
     }
 }
