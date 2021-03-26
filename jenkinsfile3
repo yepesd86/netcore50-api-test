@@ -32,7 +32,7 @@ pipeline {
         }
     }
     
-     stage ('Deploy K8S (AKS)'){
+     stage ('Deploy K8S (AKS2)'){
         steps {
            bat(script: 'az aks get-credentials --resource-group aforo255Devops --name cluster-Devops & kubectl config get-contexts --kubeconfig=%KUBE_PATH_CONFIG%',returnStdout:true);   
            bat(script: 'kubectl config use-context cluster-Devops --kubeconfig=%KUBE_PATH_CONFIG%',returnStdout:true);
