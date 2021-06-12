@@ -18,7 +18,7 @@ namespace ProjectTest.API.Controllers
         public string Get()
         {
             _logger.LogInformation("Initial Home Get");
-            return "Net Core 5.0 Running ... 15052021-v10 JenkinsFile AFORO255";
+            return "Net Core 5.0 Running ... 12062021-v1.0.0 AzureDevops AFORO255";
         }
     }
 }
